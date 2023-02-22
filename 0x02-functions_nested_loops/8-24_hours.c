@@ -21,6 +21,12 @@ void jack_bauer(void)
 				{
 					if (i == 2 && j == 3 && x == 5 && z == 9)
 					{
+						_putchar('0' + i);
+						_putchar('0' + j);
+						_putchar(':');
+						_putchar('0' + x);
+						_putchar('0' + z);
+						_putchar('\n');
 						return;
 					}
 					if (x == 6 && j != 9)
