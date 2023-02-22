@@ -19,12 +19,6 @@ void jack_bauer(void)
 			{
 				for (z = 0;  z <= 9; z++)
 				{
-					putchar('0' + i);
-					putchar('0' + j);
-					putchar(':');
-					putchar('0' + x);
-					putchar('0' + z);
-					putchar('\n');
 					if (i == 2 && j == 3 && x == 5 && z == 9)
 					{
 						return;
@@ -40,6 +34,12 @@ void jack_bauer(void)
 						j = 0;
 						x = 0;
 					}
+					putchar('0' + i);
+					putchar('0' + j);
+					putchar(':');
+					putchar('0' + x);
+					putchar('0' + z);
+					putchar('\n');
 				}
 			}
 		}
