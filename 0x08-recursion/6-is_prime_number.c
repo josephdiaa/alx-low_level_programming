@@ -25,7 +25,7 @@ int fun(int n, int i)
 	return (fun(n, i + 1));
 }
 /**
- *_sqrt_recursion - Entry point
+ *is_prime_number- Entry point
  *@n: number
  * Return: int
  */
