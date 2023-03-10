@@ -1,6 +1,10 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
+#include "main.h"
 /**
  * _puts_recursion - Entry point
- *@s: The character to be checked
+ *@n: The character to be checked
  * Return: void
  */
 void _puts_recursion(char *s)
@@ -14,3 +18,11 @@ void _puts_recursion(char *s)
 	s++;
 	_puts_recursion(s);
 }
+
+int main()
+{
+	_puts_recursion("Puts with recursion");
+	return (0);
+}
+
+
