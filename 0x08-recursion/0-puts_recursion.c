@@ -1,5 +1,11 @@
 #include "main.h"
-
+/*
+ * _puts_recusion - print string
+ * @s: string
+ * return void
+ *
+ *
+ */
 void _puts_recursion(char *s)
 {
 	if (*s == '\0')
