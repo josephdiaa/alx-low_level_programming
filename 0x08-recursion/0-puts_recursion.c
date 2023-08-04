@@ -1,8 +1,8 @@
 #include "main.h"
 /*
- * _puts_recursion - print string
- * @s: string
- * return void
+ *_puts_recursion - print string;
+ *@s: string
+ *return void
  *
  *
  */
